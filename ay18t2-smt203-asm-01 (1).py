@@ -1,8 +1,8 @@
 ########################################################################
 # ay18t2-smt203-asm-01
 # team members:
-# 	1.
-# 	2. 
+# 	1. Wong Xiao Rong
+# 	2. Rajiv Abraham Xavier
 ########################################################################
 
 import requests
@@ -13,7 +13,7 @@ import datetime, time
 # global variables 
 ########################################################################
 
-my_token = '' # put your secret Telegram token here 
+my_token = '' # put your secret Telegram token here, this is for the bot t.me/WhereMyBus_Bot
 url_base = 'https://api.telegram.org/bot{}/'.format(my_token)
 
 url_busArrival = 'http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2'
