@@ -13,7 +13,7 @@ import datetime, time
 # global variables 
 ########################################################################
 
-my_token = '793982437:AAF6pPOCITG68yhbFEYk7nYdCFmUCEQ65gM' # put your secret Telegram token here 
+my_token = '' # put your secret Telegram token here 
 url_base = 'https://api.telegram.org/bot{}/'.format(my_token)
 
 url_busArrival = 'http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2'
@@ -21,7 +21,7 @@ url_busArrival = 'http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2'
 # if you read page 6 of the LTA data mall, notice that ALL requests to the data 
 # mall must include headers, for example:
 headers = {
-	'AccountKey': 'mucCdZKtTZCbIsZI4dQjAw==', # enter your account key here (check your email when you sign up in LTA data mall) 
+	'AccountKey': '', # enter your account key here (check your email when you sign up in LTA data mall) 
 	'accept': 'application/json'
 }
 
