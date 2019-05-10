@@ -1,8 +1,5 @@
 ########################################################################
-# ay18t2-smt203-asm-01
-# team members:
-# 	1.Wong Xiao Rong
-# 	2.Rajiv Abraham Xavier
+#Bus Search Telegram Chat BOT
 ########################################################################
 
 import requests
